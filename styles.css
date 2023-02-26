@@ -1,0 +1,434 @@
+:root {
+    --color-primary: #2E2F42;
+    --color-secondary: #434455;
+    --color-light: #E7E9FC;
+    --color-ocean: #404BBF;
+    --color-iris: #4D5AE5;
+    --color-background-ocean: #F4F4FD;
+    --total-white: #ffffff;
+}
+
+/* Видалити потім */
+.hero-background-title {
+    background-color: #2E2F42;
+    padding: 188px 0;
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary);
+}
+
+ul {
+    list-style: none;
+}
+
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* Оформлення Header */
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.head-section-container { 
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.adress-block-container {
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo-blue {
+    color: var(--color-iris);
+}
+
+.logo {
+    display: block;
+    /* margin: 0 0 16px; */
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px; 
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--color-primary);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo-footer {
+    color: var(--color-background-ocean);
+}
+
+.header-section {
+    display: block;
+    padding: 24px 0 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.header-section:hover, .header-section:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-ocean)
+}
+
+.header-contacts {
+    padding: 24px 0 24px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-secondary)
+}
+
+.header-contacts:hover, .header-contacts:focus { 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--color-ocean)
+}
+
+/* Оформлення Hero */
+.container-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 600px;
+    padding: 188px 473px 292px;
+}
+
+.hero-title {
+    width: 496px;
+    margin: 0 auto;
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--total-white);
+    letter-spacing: 0.02em;
+}
+
+.hero-title-container {
+    display: flex;
+    align-content: center;
+    width: 494px;
+}
+
+.button-hero {
+    border: none;
+    padding: 16px 32px;
+    margin-top: 48px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--total-white);
+    background-color: var(--color-iris);
+    cursor: pointer;
+}
+
+.button-hero:hover, .button-hero:focus {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--total-white);
+    background-color: var(--color-ocean);
+    cursor: pointer;
+}
+
+/* Оформлення Main points */
+.main-points-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.main-points-ul-container {
+    display: flex;
+
+}
+
+.main-points-li-container {
+    width: calc((100% - 3 * 24px) / 4);
+    margin-right: 24px;
+}
+
+.main-points-li-container:last-child {
+    margin-right: 0;
+}
+
+.main-points-h3 {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+
+.main-points-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary)
+}
+
+/* Оформлення What are we doing */
+.what-container {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.what-images-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 24px;
+}
+
+.h2-what-are-we-doing {
+    text-align: center;
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+/* ____________________________________
+Оформлення Our team */
+.our-team-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.about-team-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.our-team-section {
+    background-color: var(--color-background-ocean);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.our-team-heading {
+    text-align: center;
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+
+.our-team-li-container {
+    width: calc((100% - 3 * 24px) / 4);
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-naming-container {
+    padding: 32px 0 32px;
+    text-align: center;
+}
+
+.our-team-name {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+
+.our-team-job {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary)
+}
+
+/* Оформлення Footer */
+/* .footer-container {
+    display: block;
+    align-items: center;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+} */
+
+.footer-logo-container {
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.footer-bgc {
+    background-color: var(--color-primary);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-text {
+    margin-top: 16px;
+    color: var(--color-light);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+}
+
+/* Оформлення сторінки Portfolio */
+.portfolio-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.buttons-portfolio {
+    border: none;
+    /* margin-right: 24px; */
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-iris);
+    background-color: var(--color-light);
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+
+.li-buttons:not(:last-child) {
+    margin-right: 24px;
+}
+
+.buttons-portfolio:hover, .buttons-portfolio:focus {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--total-white);
+    background-color: var(--color-ocean);
+    letter-spacing: 0.04em;
+}
+
+/* Оформлення Main products */
+
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.portfolio-plates-container {
+    display: flex;
+    align-items: center;
+    /* gap: 24px; */
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+
+.porfolio-li-plates {
+    width: calc((100% - 2 * 24px) / 3);
+    margin-bottom: 48px;
+}
+
+.porfolio-li-plates:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.portfolio-plates-images {
+    display:  block;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolo-plates-text {
+    padding: 32px 0 32px 16px;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.main-products-h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-primary);
+    letter-spacing: 0.02em;
+}
+
+.main-products-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-secondary);
+    letter-spacing: 0.02em;
+}
